@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Addition",
+            "request": "launch",
+            "mainClass": "Addition",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Welcome3",
+            "request": "launch",
+            "mainClass": "Welcome3",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Welcome1",
+            "request": "launch",
+            "mainClass": "Welcome1",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Welcome2",
+            "request": "launch",
+            "mainClass": "Welcome2",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "welcome1",
+            "request": "launch",
+            "mainClass": "welcome1",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "welcome2",
+            "request": "launch",
+            "mainClass": "welcome2",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "welcome",
+            "request": "launch",
+            "mainClass": "welcome",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-CursoApplication<curso>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

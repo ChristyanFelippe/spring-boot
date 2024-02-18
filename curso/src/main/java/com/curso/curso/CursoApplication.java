@@ -1,5 +1,7 @@
 package com.curso.curso;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,11 +11,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CursoApplication {
 
+	@Autowired
 	private AppConfiguration appConfiguration;
 
-	public CursoApplication(AppConfiguration appConfiguration) {
-		this.appConfiguration = appConfiguration;
-	}
+	@Value("${app.message}")
+	private String textoProperties;
+
+	// public CursoApplication(AppConfiguration appConfiguration) {
+	// 	this.appConfiguration = appConfiguration;
+	// }
 
 	public static void main(String[] args) {
 		SpringApplication.run(CursoApplication.class, args);
@@ -21,7 +27,7 @@ public class CursoApplication {
 	}
 	@GetMapping("/inicio")
 	public String inicio() {
-		return "iniciou minha primeira api web";
+		return textoProperties;
 	}
 
 	@GetMapping("/configuracao")
