@@ -20,6 +20,5 @@ public class Addition {
         sum = number1 + number2; // soma os números, depois armazena o total em sumÿ
 
         System.out.printf("Sum is %d%n", sum); // exibe a soma ÿ
-        System.out.println(input);
     }
 }
