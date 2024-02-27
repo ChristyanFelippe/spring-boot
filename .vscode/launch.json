@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AccountTest",
+            "request": "launch",
+            "mainClass": "AccountTest",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Comparison",
             "request": "launch",
             "mainClass": "Comparison",

@@ -1,8 +1,3 @@
-package java_8_deitel.cap_3;
-
-/**
- * Account
- */
 public class Account {
 
     private String name;
