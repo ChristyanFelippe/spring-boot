@@ -6,8 +6,8 @@ public class AccountTest {
         Scanner input = new Scanner(System.in);
         Account account = new Account();
         System.out.printf("Initial name is: %s%n%n", account.getName());
-        System.out.println("Insert name : ");
-        int name = input.nextInt();
+        System.out.print("Insert name : ");
+        String name = input.nextLine();
         account.setName(name);
         System.out.println("Nome setado foi " + account.getName());
     }
